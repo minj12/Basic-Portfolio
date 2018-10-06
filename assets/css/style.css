@@ -11,8 +11,36 @@ header{
     background-color: white;
 }
 .topnav { 
-    text-align: center; 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 5px solid#cccccc;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
 }
 
   h1 {
@@ -31,16 +59,6 @@ header{
     font-family: 'Georgia','Times New Roman', Times, serif;
   }
   /* copyright section*/
-  h3 {
-    position: front;
-    font-size: 15px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(105, 97, 97);
-    color: white;
-    text-align: center;
-   }
 
 h4 {
     position: front;
@@ -89,3 +107,19 @@ input[type=submit]:hover {
     padding: 20px;
     
 }
+
+label{
+    color:#737679;  
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer {
+    position: bottom;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid gray;
+    background-color: rgb(105, 97, 97);
+    color: white;
+    text-align: center;
+ }
